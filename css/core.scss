@@ -1,3 +1,28 @@
+$light-gray: #aaa;
+$dark-gray: #333;
+$off-white: #eee;
+
 body {
-  
+  background-color: $off-white;
+  color: $dark-gray;
+  margin: 0px;
+}
+
+header {
+  background-color: $dark-gray;
+  color: $off-white;
+  height: 35px;
+  font-size: 26px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+section {
+  &#main {
+    background-color: $light-gray;
+    color: $dark-gray;
+    margin: 50px 20px;
+  }
 }

@@ -1,0 +1,19 @@
+body {
+  background-color: #eeeeee;
+  color: #333333;
+  margin: 0px; }
+
+header {
+  background-color: #333333;
+  color: #eeeeee;
+  height: 35px;
+  font-size: 26px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px; }
+
+section#main {
+  background-color: #aaaaaa;
+  color: #333333;
+  margin: 50px 20px; }
